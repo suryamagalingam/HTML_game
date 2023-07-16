@@ -1,0 +1,92 @@
+*{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.index{
+    
+  display: flex;
+ 
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+}
+.heading
+{
+ display: flex;
+ color:black;
+ font-size: 85px;
+ justify-self: center;
+ align-items: center;
+}
+.firstclick 
+{
+  display:flex;
+  width:10em;
+  height:5em;
+  align-items: center;
+  color: white;
+  background-color:blue;
+  padding-left: 3.5em;
+  font-size: 20px;
+}
+.firstpage{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+}
+.onetoten{
+  display: flex;
+  flex-direction: column;
+  color:black;
+  font-size: 60px;
+  justify-self: center;
+  align-items: center;
+}
+
+input{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  width: 90px;
+  height:90px;
+  align-items: center;
+  border-color:black;
+  font-size: 45px;
+}
+#lastclick,#set
+{
+ 
+  width:8em;
+  height:3em;
+  align-items: center;
+  color: white;
+  background-color:blue;
+ 
+  font-size: 20px;
+}
+
+#msg{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:10em;
+  width:20em;
+  padding-left: 2.3em;
+  font-size: 20px;
+}
+#message
+{
+  display: flex;
+ justify-content: center;
+ font-size: x-large;
+ height:45px;
+ width:11cm;
+ padding:10px;
+ border: solid black 2px;
+ align-items: center;
+}
+#rlive{
+  font-size: xx-large;
+  color: red;
+}
